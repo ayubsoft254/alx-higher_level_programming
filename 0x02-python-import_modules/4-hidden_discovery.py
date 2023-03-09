@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 import hidden_4 as h
 
-names = dir(hidden_4)
-for name in sorted(names):
-    if not name.startswith('__'):
+if __name__ == '__main__':
+    names = filter(lambda n: not n.startswith('__'), dir(h))
+    for name in names:
         print(name)
-
