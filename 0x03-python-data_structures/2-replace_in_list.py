@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-def replace_in_list(my_list, idx, element):
+
+def replace_in_list(my_list, idx, elem):
     """
     replace an elment from a list at index idx with elem
     Args:
@@ -12,4 +13,4 @@ def replace_in_list(my_list, idx, element):
     if idx < 0 or idx >= len(my_list):
         return my_list
     my_list[idx] = elem
-    return my_list 
+    return my_list
