@@ -1,0 +1,31 @@
+#####################
+0-add_integer.py
+####################
+
+'''add_integer(...)''' returns the addition of its two arguments. For numbers
+that value is equal to using the ''+'' operator
+
+**
+The function works with the following
+ *Integers ie add_integer(4, 7)
+ *floats ie add_integer(2.0, 3.0)
+ *floating and non floating values can be combined ie add_integer(3.5, 3)
+
+**
+The following will raise an error if the following are used
+ >>> add_integer("hello", 3)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+ >>> add_integer(2, "hello")
+    Traceback (most recent call last):
+    TypeError: b must be an integer
+ 
+  >>> add_integer(None)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+  >>> add_integer(2.3, None)
+    Traceback (most recent call last):
+    TypeError: b must be an integer
+

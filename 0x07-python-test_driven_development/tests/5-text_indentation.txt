@@ -1,0 +1,32 @@
+***************************
+5-text_indentation.py usage
+***************************
+
+the module defines a text-indentation function ``text_indentation(text)``
+
+**
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+    >>> text_indentation("How are you?")
+    How are you?
+    <BLANKLINE>
+
+**
+    >>> text_indentation("   Hello there.")
+    Hello there.
+    <BLANKLINE>
+
+*****************
+Errors[TypeError]
+*****************
+
+**
+ the parameter must be a string
+   
+    >>> text_indentation(67)
+    Traceback (most recent call last):
+    TypeError: text must be a string
+
+**
+    >>> text_indentation(None)
+    Traceback (most recent call last):
+    TypeError: text must be a string
