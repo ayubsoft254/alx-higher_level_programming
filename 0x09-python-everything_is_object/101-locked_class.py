@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a class that is locked."""
+"""Defines a locked class."""
 
 
 class LockedClass:
